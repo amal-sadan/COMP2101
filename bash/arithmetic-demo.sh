@@ -8,14 +8,7 @@
 #    the product of the 3 numbers with a label
 
 # Asking user to enter 3 random numbers
-echo "Enter the first number ::"
-read firstnumber
-
-echo "Enter the second number ::"
-read secondnumber
-
-echo "Enter the third number  ::"
-read thirdnumber
+read -p "enter the numbers " firstnumber secondnumber thirdnumber
 
 #finding the sum and product of 3 numbers
 
